@@ -1,0 +1,40 @@
+<div class="modal-body">
+    <h2 class="mb-3">Start Your Adventure</h2>
+    <p class="text-muted">Fill in your details and our experts will reach out within 24 hours.</p>
+
+    <form id="bookingForm">
+        <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" class="form-control" placeholder="Enter your name" required>
+        </div>
+        
+        <div class="form-group">
+            <label>Destination</label>
+            <select class="form-control">
+                <option>Paris, France</option>
+                <option>Swiss Alps, Switzerland</option>
+                <option>Maldives Islands</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 form-group">
+                <label>Travel Date</label>
+                <input type="date" class="form-control" required>
+            </div>
+            <div class="col-md-6 form-group">
+                <label>Travelers</label>
+                <input type="number" class="form-control" min="1" value="1">
+            </div>
+        </div>
+
+        <ul class="list-group list-group-flush mb-4 small">
+            <li class="list-group-item px-0">✔ Best Price Guarantee</li>
+            <li class="list-group-item px-0">✔ Free Cancellation (up to 48h)</li>
+            <li class="list-group-item px-0">✔ 24/7 Support</li>
+        </ul>
+
+        <button type="submit" class="btn btn-success btn-block">Confirm Booking</button>
+        <button type="button" class="btn btn-light btn-block" data-dismiss="modal">Cancel</button>
+    </form>
+</div>
